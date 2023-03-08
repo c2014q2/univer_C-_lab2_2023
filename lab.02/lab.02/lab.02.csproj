@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>lab._02</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="salut\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="salut\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="salut\**" />
+    </ItemGroup>
+
+</Project>
